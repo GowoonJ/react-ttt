@@ -1,7 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Game from './App.jsx'
-import Header from './header'
+import { Game, Header } from './components'
+// import Game from './components/game'
+// import Header from './components/header'
 import './index.scss'
 
 const root = document.getElementById('root')

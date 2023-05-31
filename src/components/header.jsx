@@ -1,5 +1,5 @@
 // src/header.jsx
-export default function Header () {
+export function Header () {
   return (
     <nav className="bg-gray-800">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -92,3 +92,5 @@ export default function Header () {
     </nav>
   )
 }
+
+export default Header
